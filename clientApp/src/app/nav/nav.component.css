@@ -1,0 +1,72 @@
+.nav-title{
+    color:#2196f3;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight:bold;
+    padding-top: 28px;
+    padding-left: 28px;
+
+}
+.nav-title-sec{
+    color:white;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight:bold;
+}
+.home-nav-options-container{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight:bold;
+    padding-top: 28px;
+    color:white;
+}
+.home-nav-options{
+    padding-right:24px;
+    padding-top:4px;
+
+}
+.home-nav-menu-container{
+    font-family: "Roboto";
+    
+    font-weight:bold;
+    padding-top: 20px;
+    color:white;
+    padding-right:18px;
+}
+.active-nav{
+    color:#2196f3;
+    text-decoration: underline;
+}
+.btn-outline-info{
+    
+    color:white;
+    width:125px;
+    padding:0;
+    height:40px;
+    margin-top:8px;
+    
+}
+.menu-icon{
+    margin-left:35px;
+}
+.first{
+    width:55px;
+    height: 5px;
+    background-color: #2196f3;
+    /* margin: 8px 0; */
+
+}
+.second{
+    width:40px;
+    height: 5px;
+    background-color: #2196f3;
+    margin: 12px 0;
+    
+}
+.third{
+    width:28px;
+    height: 5px;
+    background-color: #2196f3;
+    margin: 12px 0;
+    
+}

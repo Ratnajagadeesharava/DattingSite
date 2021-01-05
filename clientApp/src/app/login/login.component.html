@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Login</h1>
+<div class="container">
+    <div mat-dialog-content>
+        <form #registerForm="ngForm" (ngSubmit)="login()">
+           
+            <mat-form-field class="form-full-width-username">
+                <mat-label>UserName</mat-label>
+                <input name="UserName" matInput #userName maxlength="512" placeholder="Ex. Jagadeesh" [(ngModel)]="model.userName"/>
+            </mat-form-field>
+           
+           
+            <mat-form-field class="form-full-width-username">
+                <mat-label>Password</mat-label>
+                <input name="password" type="password" matInput #Password maxlength="512" [(ngModel)]="model.password">
+            </mat-form-field>
+           
+            <div class="d-flex flex-row justify-content-between">
+                <button type="submit" mat-raised-button color=
+                "primary">Login</button>
+                    <div mat-dialog-actions>
+                        <button mat-raised-button mat-dialog-close color="warn">Close</button>
+                     </div>
+            </div>
+            {{model|json}}
+        </form>
+     
+     </div>
+</div>

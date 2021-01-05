@@ -1,0 +1,51 @@
+.bg-container{
+    background-image:url("/assets/images/bg1.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.home-content{
+    color: white;
+    font-size: 48px;
+    font-family: "Roboto";
+    font-weight: bold;
+    width:20vw;
+    line-height: 60px;
+}
+.small-content{
+    color:#2196f3;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    width:200px;
+    line-height: 30px;
+    
+}
+.home-main-content{
+    margin-top:-120px;
+}
+.icons-social{
+    color:white;
+    padding-left:28px;
+    padding-bottom:28px;
+    font-size:36px;
+
+}
+.mat-mini-fab{
+    background-color:#2196f3 ;
+    color:white;
+    font-size:24px;
+    margin:12px;
+}
+.mat-raised-button{
+    background-color:white;
+    color:#2196f3;
+    margin-top: 12px;
+    font-size: 24px;
+    width:125px;
+    height:40px;
+}
+.right-text{
+    color:white;
+    padding:28px;
+    font-size: 24px;
+}
